@@ -1,0 +1,129 @@
+*{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(214, 241, 173);
+}   
+
+nav{
+    background-color: rgb(255, 224, 224);
+}
+
+nav a{
+    padding-left: 50px;
+    color: black;
+}
+
+nav form .btn{
+margin: 8px;
+}
+
+/*In this area, the items and buttons on the page are sorted and arranged */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    margin: 30px;
+}
+
+.mbtn {
+    padding-left: 900px;
+    padding-top: 20px;
+}
+
+.mbtn button{
+    color: black;
+    background-color: rgb(231, 85, 85);
+    height: 41px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.mbtn a{
+    padding: 0;
+    height: 30px;
+    width: 100px;
+    text-decoration: none;
+    border: 1px solid rgb(112, 105, 105);
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+table{
+    background-color: rgb(254, 243, 243);
+    height: 250px;
+    width: 220px;
+  box-sizing: border-box;
+  border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+td{
+    display: block;
+    flex-direction: column;
+    padding: 15px;
+}
+
+
+.fieldbox{
+    display:none;
+}
+
+.addform{
+   margin: 50px;
+   padding-left: 30px;
+   padding-top: 20px;
+}
+
+form input{
+    padding: 0px;
+}
+
+form{
+    margin: 50px 80px 80px 80px;
+}
+
+form input{
+    padding: 5px;
+    margin: 5px;  
+}
+
+form input .sbtn{
+    margin-left: 150px;
+}
+
+/*In this area, the buttons on the new item add page have been arranged */
+
+.pabuttons{
+    margin: 15px 0px 0px 120px;
+}
+
+.pabuttons input{  
+    text-decoration: none;
+    border: 1px solid rgb(112, 105, 105);
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.pabuttons button{
+    height: 45px;
+    color: black;
+    background-color: rgb(231, 85, 85);
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.pabuttons button a{
+    color: black;
+    height: 45px;
+    width: 100px;
+}
