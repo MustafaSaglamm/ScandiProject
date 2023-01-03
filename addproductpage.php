@@ -30,6 +30,7 @@ $query->execute();
     
 <!--This section was written for the purpose of adding a new shopping card. -->
        
+    <div class="form2">
     <form method="POST" action="#">
 
       SKU <input type="text" id="formbox" name="SKU"><br>
@@ -69,6 +70,7 @@ $query->execute();
               </div>
 
     </form>
+    </div>    
        
 <?php 
 
