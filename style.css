@@ -3,11 +3,12 @@
 }
 
 body{
-    background-color: rgb(214, 241, 173);
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }   
 
 nav{
-    background-color: rgb(255, 224, 224);
+    background-color: rgb(251, 233, 233);
+    
 }
 
 nav a{
@@ -18,6 +19,7 @@ nav a{
 nav form .btn{
 margin: 8px;
 }
+
 
 /*In this area, the items and buttons on the page are sorted and arranged */
 
@@ -30,8 +32,11 @@ margin: 8px;
 }
 
 .mbtn {
-    padding-left: 900px;
-    padding-top: 20px;
+    position: relative;
+    width: 500px;
+    right: -30px;
+    margin-top: 20px;
+    
 }
 
 .mbtn button{
@@ -40,6 +45,8 @@ margin: 8px;
     height: 41px;
     border-radius: 5px;
     border: 1px solid grey;
+    position: relative;
+    
 }
 
 .mbtn a{
@@ -52,17 +59,22 @@ margin: 8px;
     background-color: grey;
     border-radius: 5px;
     padding: 10px;
+    position: relative;
+   
 }
 
 table{
     background-color: rgb(254, 243, 243);
-    height: 250px;
-    width: 220px;
+    height: 90%;
+    width: 90%;
+    float: left;
   box-sizing: border-box;
   border: 2px solid grey;
+  border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content:flex-start;
+    
 }
 
 td{
@@ -87,7 +99,18 @@ form input{
 }
 
 form{
-    margin: 50px 80px 80px 80px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.form2{
+    padding-left: 50px;
+    padding-top: 50px;
+    position: relative;
+    height: auto;
+    width: auto;
+    
 }
 
 form input{
